@@ -1,0 +1,48 @@
+Last login: Wed Sep 24 15:54:31 on ttys000
+macbookpro@Macbooks-MacBook-Pro ~ % cd ~/Desktop
+macbookpro@Macbooks-MacBook-Pro Desktop % mkdir enographic-website
+mkdir: enographic-website: File exists
+macbookpro@Macbooks-MacBook-Pro Desktop % cd enographic-website
+macbookpro@Macbooks-MacBook-Pro enographic-website % bash
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ nano index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6              File: index.html                        Modified  
+
+      document.querySelector("#portofol > div > h2")?.remove(); // just in case
+      document.querySelector("#portofol > div").children[0].textContent = t.por$
+      document.querySelector(".contact-description").textContent = t.contactTex$
+      document.querySelector("#kontakt > div > h2").textContent = t.contact;
+    }
+
+    // Default language
+  </setLanguage('sq');
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
