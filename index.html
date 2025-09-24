@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>enographic | Graphic Designer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">enographic</div>
+    <nav class="menu">
+      <a href="#" data-slide="home">🏠</a>
+      <a href="#" data-slide="about">Rreth Meje</a>
+      <a href="#" data-slide="portfolio">Portfolio</a>
+      <a href="#" data-slide="contact">Kontakt</a>
+    </nav>
+    <div class="languages">
+      <button onclick="setLanguage('sq')">🇦🇱</button>
+      <button onclick="setLanguage('en')">🇬🇧</button>
+      <button onclick="setLanguage('de')">🇩🇪</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="slide active" id="home">
+      <h1 data-sq="Mirë se vini!" data-en="Welcome!" data-de="Willkommen!">Mirë se vini!</h1>
+      <p data-sq="Faqja zyrtare e enographic." data-en="Official page of enographic." data-de="Offizielle Seite von enographic.">
+        Faqja zyrtare e enographic.
+      </p>
+    </section>
+
+    <section class="slide" id="about">
+      <h1 data-sq="Rreth Meje" data-en="About Me" data-de="Über mich">Rreth Meje</h1>
+      <p data-sq="Jam një graphic designer me pasion për dizajn të pastër e tërheqës." 
+         data-en="I'm a graphic designer passionate about clean and attractive design." 
+         data-de="Ich bin ein Grafikdesigner mit Leidenschaft für sauberes, ansprechendes Design.">
+         Jam një graphic designer me pasion për dizajn të pastër e tërheqës.
+      </p>
+    </section>
+
+    <section class="slide" id="portfolio">
+      <h1>Portfolio</h1>
+      <div class="gallery">
+        <img src="https://source.unsplash.com/featured/?design" alt="Punë dizajni 1" />
+        <img src="https://source.unsplash.com/featured/?branding" alt="Punë dizajni 2" />
+        <img src="https://source.unsplash.com/featured/?graphic" alt="Punë dizajni 3" />
+      </div>
+    </section>
+
+    <section class="slide" id="contact">
+      <h1>Kontakt</h1>
+      <ul>
+        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>WhatsApp: <a href="https://wa.me/355XXXXXXXXX" target="_blank">+355XXXXXXXXX</a></li>
+        <li>Instagram: <a href="https://instagram.com/enographic" target="_blank">@enographic</a></li>
+        <li>Fiverr: <a href="https://fiverr.com/enographic" target="_blank">fiverr.com/enographic</a></li>
+        <li>Behance: <a href="https://behance.net/enographic" target="_blank">behance.net/enographic</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
